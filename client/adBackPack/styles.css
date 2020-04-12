@@ -1,0 +1,31 @@
+/*html {*/
+    /*min-height: 100%*/
+/*}*/
+/*img {*/
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*width: 100%;*/
+    /*max-width: 100%;*/
+    /*max-height: 100%;*/
+    /*margin: auto;*/
+    /*overflow: auto;*/
+/*}*/
+/*body {*/
+    /*background: #000;*/
+/*}*/
+html {
+    min-height: 100%;
+    background-color: #000;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #FFF;
+}
+
+h1 {
+    color: white;
+    font-size: medium;
+}

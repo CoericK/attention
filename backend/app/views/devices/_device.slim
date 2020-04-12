@@ -1,0 +1,13 @@
+li
+  h2 = device.name
+  .profit = "Profit: $#{device.balance}"
+  .distance = "Distance: #{device.distance}"
+
+  - if device.tracks.any?
+    .track
+      .update = "Tracked #{time_ago_in_words(device.tracks.last.created_at)} ago"
+      .position = "Position: #{device.tracks.last.latitude}, #{device.tracks.last.longitude}"
+
+  - if device.rotations.present?
+    .rotation
+      = image_tag device.rotations.last.ad.url
